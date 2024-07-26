@@ -1,0 +1,16 @@
+[package]
+name = "trisect"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "trisect"
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1.0.86"
+hashbrown = { version = "0.14.5", features = ["rayon"] }
+pyo3 = "0.18.1"
+rand = "0.8.5"
+rayon = "1.10.0"
