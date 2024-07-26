@@ -1,5 +1,5 @@
 <p align="center">
-  <img src='images/logo.png' width='200px' align="center"></img>
+  <img src='images/logo.png' width='170px' align="center"></img>
 </p>
 
 <div align="center">
@@ -15,17 +15,14 @@
 #
 
 ### Contents
-- [Installation](#installation)
-  - [Compiling from source](#compilation-from-source)  
+- [Installation](#installation) 
 - [Usage](#usage)
 - [How does it work](#how-does-it-work)
-- [Performance](#performance)
-- [Citing](#citing)
 
 
 <p align="center">
-  <img src="images/delaunay.png"/>
-  <img src="images/trisect.png"/>
+  <img src="images/delaunay.png" width=500/>
+  <img src="images/trisect.png" width=500/>
 </p>
 
 Trisect is a package to sample edges of the Delaunay triangulation.
